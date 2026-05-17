@@ -1,8 +1,8 @@
 🛠 Feature Scaling: Comparative Analysis
-To ensure the K-Means clustering algorithm performs optimally, we evaluated multiple data transformation techniques. Since distance-based algorithms are sensitive to feature scales, selecting the right transformer is critical for meaningful playlist generation.
+To ensure the K-Means clustering algorithm performs optimally, multiple data transformation techniques are evaluated. Since distance-based algorithms are sensitive to feature scales, selecting the right transformer is critical for meaningful playlist generation.
 
 🧪 Scalers Evaluated
-We benchmarked the following transformers to observe their impact on the Spotify audio features:
+Benchmarking of the following transformers to observe their impact on the Spotify audio features:
 
 MinMaxScaler: Rescales data to a fixed [0,1] range.
 
